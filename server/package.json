@@ -1,0 +1,27 @@
+{
+  "name": "cro-server",
+  "version": "1.0.0",
+  "description": "Backend API for CRO Lab - Conversion Rate Optimization & A/B Testing Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": [
+    "conversion-rate-optimization",
+    "cro",
+    "ab-testing",
+    "digital-marketing",
+    "analytics"
+  ],
+  "author": "SkillBoost Academy Student Project",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "better-sqlite3": "^11.8.1"
+  }
+}

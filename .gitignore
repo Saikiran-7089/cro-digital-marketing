@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment Variables
+.env
+.env.local
+*/.env
+*/.env.local
+
+# Build output
+dist/
+build/
+client/dist/
+
+# SQLite Database local files (demo database created at runtime)
+server/data/*.sqlite
+server/data/*.sqlite-journal
+server/data/*.sqlite-wal
+server/data/*.sqlite-shm
+
+# Logs & Debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

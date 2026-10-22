@@ -1,0 +1,24 @@
+{
+  "name": "cro-digital-marketing",
+  "version": "1.0.0",
+  "description": "CRO Lab – Conversion Rate Optimization & A/B Testing Platform for Digital Marketing course assignment",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "conversion-rate-optimization",
+    "cro",
+    "ab-testing",
+    "digital-marketing",
+    "react",
+    "express",
+    "sqlite"
+  ],
+  "author": "SkillBoost Academy Student Project",
+  "license": "MIT"
+}
