@@ -4,9 +4,11 @@ node_modules/
 
 # Environment Variables
 .env
-.env.local
+.env.*
+!.env.example
 */.env
-*/.env.local
+*/.env.*
+!*/.env.example
 
 # Build output
 dist/
@@ -14,7 +16,12 @@ build/
 client/dist/
 
 # SQLite Database local files (demo database created at runtime)
+*.sqlite
+*.sqlite3
+*.db
 server/data/*.sqlite
+server/data/*.sqlite3
+server/data/*.db
 server/data/*.sqlite-journal
 server/data/*.sqlite-wal
 server/data/*.sqlite-shm
